@@ -40,4 +40,15 @@ Classify the email first, then apply the matching template:
 - No exclamation marks. No "I hope this email finds you well."
 - One idea per sentence.
 
-### Signature block (exact format)
+### Line breaks (critical)
+- Each paragraph MUST be written as ONE continuous line in the source.
+- Never insert a newline inside a sentence or paragraph to "wrap" text.
+- The only newlines allowed in the body are:
+  - After the greeting line
+  - Between separate paragraphs
+  - Before the signature block
+  - After the sign-off ("Best,")
+- Email clients wrap text automatically. Manual wrapping breaks mobile rendering and looks like a 1990s email.
+
+### Correct vs incorrect
+Correct (one line, wraps naturally in the client):
